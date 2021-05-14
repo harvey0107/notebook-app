@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+body {
+    font-family: 'Dancing Script', cursive;
+    background-image: url("./img/note.jpg");
+    background-size:cover;
+   background-repeat: repeat-y;
+    
+ }
+
+ .App{
+     margin-top: 5%;
+    padding: 50px, 15px, 0px;
+  }
+
+
+.App h1{
+    
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    text-shadow: black;
+  }
+
+ 
+.App .logo{
+    height: 35px;
+    width: 35px;
+    color: white;
+   margin-right: 1%;
+   margin-top: 3%;
+} 
+
+main {
+    width: 100%;
+    margin: 0;
+    border: none;
+    text-align: center;
+  }
+
+  .searchbar{
+    margin-top:4%;
+    padding: 15px;
+    width: 30%;
+    border: none;
+    background: none;
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+    font-size: 12px;
+    font-weight: 500;
+    transition: 0.4s ease-out;
+    text-align: left;
+  }
+
+  .press{
+    width: 10%;
+    padding: 6px;
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+    font-size: 9px;
+    font-weight: 500;
+    transition: 0.4s ease-out;
+    text-align: center;
+    margin: 1%;
+  }
+
+  .note-space{
+    height:auto;
+    width: 50vw;
+    background-color: white;
+    margin: 23%;
+    margin-top: 5%;
+    text-align: center;
+    border-radius: 10px;
+  }
+
+  .note{
+      list-style: none;
+      font-size: 15px;
+      font-weight: 900;
+      color: grey;
+      text-align: left;
+      margin: 2%;
+  }
+
+  
